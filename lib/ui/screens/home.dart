@@ -80,9 +80,245 @@ class _HomeState extends State<Home> {
                   )
                 ),
               ),
-            )
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text('Catgories',style: Theme.of(context).textTheme.titleLarge),
+                      Text('Show all',style: Theme.of(context).textTheme.titleLarge),
+                    ],
+                  ),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Consultation',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Dentist',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Cardiologist',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Consultation',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Dentist',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 25,horizontal: 15),
+                          child: Column(
+                            children: [
+                              Icon(Icons.help),
+                              SizedBox(height: 5,),
+                              Text('Cardiologist',style: Theme.of(context).textTheme.titleSmall,),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(height: 15,),
+                  Text('Top Doctors',style: Theme.of(context).textTheme.titleLarge,),
+                  Column(
+                    children: [
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: SizedBox(
+                          width: double.infinity,
+                          height: 70,
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              CircleAvatar(
+                                radius: 30,
+                              ),
+                              SizedBox(width: 5,),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text('Mahfuz',style: Theme.of(context).textTheme.titleLarge,),
+                                  Text('Consultant',style: Theme.of(context).textTheme.titleSmall),
+                                  Text('Consultant',style: textTheme.titleSmall?.copyWith(
+                                    fontSize: 10,
+                                  ),),
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: SizedBox(
+                          width: double.infinity,
+                          height: 70,
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              CircleAvatar(
+                                radius: 30,
+                              ),
+                              SizedBox(width: 5,),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text('Mahfuz',style: Theme.of(context).textTheme.titleLarge,),
+                                  Text('Consultant',style: Theme.of(context).textTheme.titleSmall),
+                                  Text('Consultant',style: textTheme.titleSmall?.copyWith(
+                                    fontSize: 10,
+                                  ),),
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: SizedBox(
+                          width: double.infinity,
+                          height: 70,
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              CircleAvatar(
+                                radius: 30,
+                              ),
+                              SizedBox(width: 5,),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text('Mahfuz',style: Theme.of(context).textTheme.titleLarge,),
+                                  Text('Consultant',style: Theme.of(context).textTheme.titleSmall),
+                                  Text('Consultant',style: textTheme.titleSmall?.copyWith(
+                                    fontSize: 10,
+                                  ),),
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      Card(
+                        elevation: 0,
+                        color: Colors.white,
+                        child: SizedBox(
+                          width: double.infinity,
+                          height: 70,
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              CircleAvatar(
+                                radius: 30,
+                              ),
+                              SizedBox(width: 5,),
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text('Mahfuz',style: Theme.of(context).textTheme.titleLarge,),
+                                  Text('Consultant',style: Theme.of(context).textTheme.titleSmall),
+                                  Text('Consultant',style: textTheme.titleSmall?.copyWith(
+                                    fontSize: 10,
+                                  ),),
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              ),
+            ),
+
           ],
         ),
+      ),
+      bottomNavigationBar: NavigationBar(
+        destinations: [
+          NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
+          NavigationDestination(icon: Icon(Icons.home), label: 'Doctors'),
+          NavigationDestination(icon: Icon(Icons.calendar_month), label: 'Appointment'),
+          NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
+        ],
+        backgroundColor: Color(0xFF5966f9),
+        indicatorColor: Color(0xFF5966f9),
       ),
     );
   }

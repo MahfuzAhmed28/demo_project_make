@@ -14,6 +14,10 @@ class DoctorAppointment extends StatelessWidget {
             fontSize: 15,
             color: Colors.black,
             fontWeight: FontWeight.w600
+          ),
+          titleSmall: TextStyle(
+            fontSize: 10,
+            color: Color(0xFF8d8683)
           )
         )
       ),
