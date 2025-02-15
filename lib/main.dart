@@ -1,8 +1,7 @@
-
-import 'package:demo_project_make/ui/home.dart';
 import 'package:flutter/material.dart';
-void main()
-{
+import 'package:demo_project_make/ui/home.dart';
+
+void main(){
   runApp(MyApp());
 }
 
